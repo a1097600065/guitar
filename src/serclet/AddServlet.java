@@ -35,7 +35,7 @@ public class AddServlet extends HttpServlet {
 		response.setCharacterEncoding("utf-8");
 		int id=Integer.parseInt(request.getParameter("id"));
 		String model=request.getParameter("model");
-		String builder=request.getParameter("bulider");
+		String builder=request.getParameter("builder");
 		String type=request.getParameter("type");
 		String wood=request.getParameter("wood");
 		GuitarDaoImpl dao=new GuitarDaoImpl();
